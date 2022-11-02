@@ -112,7 +112,7 @@ body {
   --hand-overhang: 0px;
   --hand-width: 1px;
   --hand-width-center-offset: calc(var(--hand-width) / 2);
-  --combined-hand-offset: (var(--hand-overhang) + (var(--hand-width) / 2));
+  --combined-hand-offset: calc((var(--hand-overhang) + (var(--hand-width) / 2)));
 
   border-right: var(--hand-width) solid var(--hand-color);
   filter: drop-shadow(0 0 5px var(--hand-color));
